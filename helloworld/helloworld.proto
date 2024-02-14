@@ -14,10 +14,8 @@
 
 syntax = "proto3";
 
-option go_package = "github.com/hodocore/protobufs";
+option go_package = "github.com/hodocore/protobufs/helloworld";
 option java_multiple_files = true;
-option java_package = "io.grpc.examples.helloworld";
-option java_outer_classname = "HelloWorldProto";
 
 package helloworld;
 
